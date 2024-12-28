@@ -1,0 +1,26 @@
+[2024-12-28T17:46:43.530Z] GET /api/todos
+Body: {}
+[2024-12-28T17:46:44.487Z] GET /api/todos
+Body: {}
+[2024-12-28T17:46:46.392Z] POST /api/todos
+Body: {"todo":"Revise DEF"}
+[2024-12-28T17:46:46.392Z] !!!ERROR: abc is not defined
+ReferenceError: abc is not defined
+    at C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\index.js:68:3
+    at Layer.handle [as handle_request] (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\index.js:280:10)
+    at loggerMiddleware (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\index.js:19:3)
+    at Layer.handle [as handle_request] (C:\Users\ankit\OneDrive\Documents\Code\Backend1\ErrorHandling-Logging\node_modules\express\lib\router\layer.js:95:5)
+[2024-12-28T17:46:47.799Z] GET /api/todos
+Body: {}
+[2024-12-28T17:46:54.893Z] GET /api/todos
+Body: {}
+[2024-12-28T17:46:57.526Z] POST /api/todos
+Body: {"todo":"Revise DEF"}
+[2024-12-28T17:46:59.644Z] GET /api/todos
+Body: {}
