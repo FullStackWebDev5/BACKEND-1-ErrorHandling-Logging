@@ -118,4 +118,32 @@ app.listen(3000, () => {
       - Don't log sensitive information
 
   # Error Handling:
+    - Try Catch
+    - Validations
+    - Two ways:
+      - Handle logging and custom response in each controller
+      - Use middleware to handle logging and custom error response
+
+  # Best practices for namings API routes:
+    - Noun for route names, verbs should be above
+      /users ✅
+      /create-users ❌
+    - Use plural
+      /users ✅
+      /user ❌
+    - CRUD operations, similar route names with different methods
+      GET /users
+      POST /users
+      PATCH /users/:id
+      DELETE /users/:id
+    - Forward slashes ('/') should be used for denoting hierarchy
+      /users/1/posts
+      /users/1/posts/2
+      /users/1/posts/2/comments
+      /users/1/posts/2/comments/3
+      /users/1/posts/2/comments/3/replies
+      /users/1/posts/2/comments/3/replies/4 ...
+    - Search and filter: Use query parameters
+      /users?searchText=Ro
+      /users?name=John&age=30
 */
