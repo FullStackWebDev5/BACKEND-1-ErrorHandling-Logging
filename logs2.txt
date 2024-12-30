@@ -1,0 +1,3 @@
+[2024-12-30T17:00:30.215Z] info This is a info log
+[2024-12-30T17:00:30.217Z] warn This is a warn log
+[2024-12-30T17:00:30.217Z] error This is an error log
